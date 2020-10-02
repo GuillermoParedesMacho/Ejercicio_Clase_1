@@ -10,4 +10,7 @@ import UIKit
 
 class ProfileViewController:UIViewController{
     
+    @IBOutlet weak var Description: UITextView!
+    @IBOutlet weak var user: UILabel!
+    @IBOutlet weak var Exit: UIButton!
 }

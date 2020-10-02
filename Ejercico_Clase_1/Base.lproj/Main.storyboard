@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="97" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="SZl-HY-ZX8">
             <objects>
-                <viewController id="oP3-qv-jME" sceneMemberID="viewController">
+                <viewController id="oP3-qv-jME" customClass="ProfileViewController" customModule="Ejercico_Clase_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hot-jv-M9z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,6 +97,11 @@
                         <viewLayoutGuide key="safeArea" id="eoM-zC-Xt7"/>
                     </view>
                     <navigationItem key="navigationItem" id="FhF-oU-PKh"/>
+                    <connections>
+                        <outlet property="Exit" destination="uHw-qC-UeI" id="YsN-1u-5Qf"/>
+                        <outlet property="description" destination="OlJ-Dt-RLn" id="bql-ec-kaX"/>
+                        <outlet property="user" destination="VgS-C6-PmV" id="RaQ-Mh-iDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JQL-ib-2k5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
