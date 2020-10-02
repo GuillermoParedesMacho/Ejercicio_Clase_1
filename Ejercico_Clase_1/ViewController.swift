@@ -10,6 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var user:String = "";
+    var password:String = "";
+    
+    @IBAction func User(_ sender: UITextField) {
+        user = sender.text ?? "";
+    }
+    @IBAction func Password(_ sender: UITextField) {
+        password = sender.text ?? "";
+    }
+    
+    @IBAction func doLogIn(_ sender: UIButton) {
+        print(user + "\n" + password);
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
