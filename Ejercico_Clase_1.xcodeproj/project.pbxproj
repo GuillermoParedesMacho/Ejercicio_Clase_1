@@ -15,6 +15,7 @@
 		33C69AE325276B25000FDB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C69AE125276B25000FDB28 /* LaunchScreen.storyboard */; };
 		33C69AEE25276B25000FDB28 /* Ejercico_Clase_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C69AED25276B25000FDB28 /* Ejercico_Clase_1Tests.swift */; };
 		33C69AF925276B25000FDB28 /* Ejercico_Clase_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C69AF825276B25000FDB28 /* Ejercico_Clase_1UITests.swift */; };
+		33C69B0725277C7E000FDB28 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C69B0625277C7E000FDB28 /* profileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33C69AF425276B25000FDB28 /* Ejercico_Clase_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejercico_Clase_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C69AF825276B25000FDB28 /* Ejercico_Clase_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercico_Clase_1UITests.swift; sourceTree = "<group>"; };
 		33C69AFA25276B25000FDB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C69B0625277C7E000FDB28 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				33C69ADF25276B25000FDB28 /* Assets.xcassets */,
 				33C69AE125276B25000FDB28 /* LaunchScreen.storyboard */,
 				33C69AE425276B25000FDB28 /* Info.plist */,
+				33C69B0625277C7E000FDB28 /* profileViewController.swift */,
 			);
 			path = Ejercico_Clase_1;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				33C69ADB25276B1D000FDB28 /* ViewController.swift in Sources */,
 				33C69AD725276B1D000FDB28 /* AppDelegate.swift in Sources */,
+				33C69B0725277C7E000FDB28 /* profileViewController.swift in Sources */,
 				33C69AD925276B1D000FDB28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
